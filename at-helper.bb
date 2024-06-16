@@ -10,7 +10,7 @@ S = "${WORKDIR}"
 
 do_install_append () {
     install -d ${D}${bindir}
-    install -m 0755 at-helper.py ${D}${bindir}
+    install -m 0755 at_helper.py ${D}${bindir}
 }
 
 DEPENDS = "python3-pyserial"
