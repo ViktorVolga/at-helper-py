@@ -1,4 +1,3 @@
-import director
 import abc
 
 class Module(abc.ABC):
